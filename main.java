@@ -9,7 +9,7 @@ public class Main
 	
 	public static ArrayList<Character> setLetters(String word) {
 	    ArrayList<Character> letters = new ArrayList<>();
-    	IntStream.range(0,word.length())
+    	    IntStream.range(0,word.length())
     			.forEach(i -> letters.add(word.charAt(i)));
     	return letters;		
     }
